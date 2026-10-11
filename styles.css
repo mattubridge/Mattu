@@ -4,3 +4,10 @@
 @media(max-width:900px){.main-nav{gap:15px}.main-nav a{font-size:.8rem}.hero-grid{gap:20px}.split-section,.about-grid,.contact-grid{gap:45px}.service-card{padding:24px 21px}.hero-visual{min-height:350px}.visual-card-top{right:-5px}.about-art{min-height:430px}}
 @media(max-width:700px){.container{width:min(100% - 34px,560px)}.site-header{height:72px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:71px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:18px 24px 23px;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 20px 30px #102a4312}.main-nav.open{display:flex}.main-nav a{padding:12px 5px;font-size:.92rem}.main-nav .nav-cta{text-align:center;margin-top:8px}.hero{padding-top:45px}.hero-grid{grid-template-columns:1fr;gap:0}.hero-copy{padding-bottom:0}.hero h1{font-size:clamp(2.65rem,12vw,3.7rem)}.hero-visual{min-height:330px;margin-top:5px}.bridge-art{max-width:420px}.visual-card-top{top:6px;right:0}.visual-card-bottom{bottom:3px;left:0}.trust-strip{gap:10px;flex-wrap:wrap;text-align:center;font-size:.58rem;padding:17px 0}.section,.about-section{padding:68px 0}.service-grid{grid-template-columns:1fr}.service-card{padding:25px}.destination-row{display:block}.destination-pills{margin-top:12px}.split-section,.about-grid,.contact-grid{grid-template-columns:1fr;gap:36px}.employment-panel{padding:23px}.steps-grid{grid-template-columns:1fr 1fr;gap:22px}.about-art{min-height:330px}.about-monogram{font-size:7rem}.contact-form{padding:23px}.candidate-section{padding-bottom:65px}.candidate-box{display:block;padding:27px 23px}.candidate-box .button{margin-top:22px}.footer-main{grid-template-columns:1fr 1fr;gap:32px 22px}.footer-brand{grid-column:1/-1}.footer-bottom{display:block}.footer-bottom span{display:block;margin:5px 0}.legal-content{padding:40px 0 60px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
